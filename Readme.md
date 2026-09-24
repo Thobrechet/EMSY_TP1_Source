@@ -85,13 +85,22 @@ cd$ ou cd /
 
 Q5. Que signifie l'option `-l` avec la commande `ls` 
 
-> votre réponse ?!
+L'option -l signifie long listing. Elle permet d'afficher les fichiers et répertoires avec des informations détaillées : permissions, propriétaire, groupe, taille, date de modification
 
 Q6. Décrypter la ligne où se trouve le répertoire **home**    
 
-[Placer votre capture d'écran]()
+<img width="1601" height="62" alt="Capture d&#39;écran 2026-09-24 153300" src="https://github.com/user-attachments/assets/8380fc8a-a986-40b5-9f1c-7cc909d8810e" />
 
-> votre réponse ?!
+d → c'est un répertoire (directory)
+rwx → droits du propriétaire : lecture, écriture, exécution
+r-x → droits du groupe : lecture et exécution
+r-x → droits des autres utilisateurs : lecture et exécution
+3 → nombre de liens
+root → propriétaire
+root → groupe
+4096 → taille du répertoire en octets
+Sep 24 09:00 → date et heure de dernière modification
+home → nom du répertoire
 
 **J.** Créez un répertoire de travail nommé « EMSY_VosInitiales» 
 
