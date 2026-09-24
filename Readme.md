@@ -56,33 +56,32 @@ Workstation Player, à l’aide d’une image disque (ISO).
 
 **G.** Lancement du live CD : 
 
-[Placer votre capture d'écran]() 
+<img width="784" height="576" alt="Capture d&#39;écran 2026-09-17 154256" src="https://github.com/user-attachments/assets/2b348c4e-41fe-4fbb-9a68-d3b6d8af1745" />
 
 Shell Linux : 
-
-[Placer votre capture d'écran]() 
-
+<img width="1928" height="1040" alt="Capture d&#39;écran 2026-09-17 153802" src="https://github.com/user-attachments/assets/748ce6c3-d976-4f70-97f0-e76a47f34412" />
 > **ATTENTION** : par défaut, le clavier est configuré est **Clavier Americain**
 
 Q1. disposition du clavier américain ?
 
-> votre réponse ?!
+querty
 
 Q2. disposition du clavier suisse-romand ?
 
-> votre réponse ?!
+le clavier suisse-romand est qwertz
 
 Q3. disposition du le clavier français ? 
 
-> votre réponse ?!
+azery
 
 **H.** Déplacez-vous à la **racine du système** en utilisant la commande suivante : `cd` 
 
-Q4. vore commande ?!
+Q4. 
+cd$ ou cd /
 
 **I.** Affichez le contenu de la racine avec la commande : `ls –l`	
 
-![Placer votre capture d'écran]() 
+<img width="1928" height="1040" alt="Capture d&#39;écran 2026-09-17 162325" src="https://github.com/user-attachments/assets/dca2c307-41da-4cac-b779-640b34b426d9" />
 
 Q5. Que signifie l'option `-l` avec la commande `ls` 
 
