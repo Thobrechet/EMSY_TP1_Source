@@ -93,11 +93,11 @@ Q6. Décrypter la ligne où se trouve le répertoire **home**
 
 d → le répertoire 
 
-rwx → droits du propriétaire : lecture, écriture, exécution
+rwx → droits du propriétaire
 
-r-x → droits du groupe : lecture et exécution
+r-x → droits du groupe
 
-r-x → droits des autres utilisateurs : lecture et exécution
+r-x → droits des autres utilisateurs
 
 3 → nombre de liens
 
@@ -105,7 +105,7 @@ root → propriétaire
 
 root → groupe
 
-4096 → taille du répertoire en octets
+4096 → taille du répertoire
 
 Sep 24 09:00 → date et heure de dernière modification
 
@@ -115,20 +115,20 @@ home → nom du répertoire
 
 Q7. dans quel dossier racine allez-vous le placer (justifiez votre réponse) 
 
-> votre réponse ?! 
+/home/live
 
 Q8. Quelle commande allez-vous utiliser pour faire ceci ?  
 
-> votre commande ?! 
+mkdir EMSY_TB
 
 **K.** Dans ce répertoire, créez un fichier texte que vous nommerez `TESTSLO_XXX_XXX` et éditez celui en écrivant un texte, exemple : "TP linux by XXX et XXX".
 	   Utiliser la commande `vi`
 
-> votre commande ?! 
+vi TESTSLO_TBT_MCN
 
-Q9. Pouvez-vous éditez un fichier uniquement avec la commande `vi` 
+Q9. Pouvez-vous édit un fichier uniquement avec la commande `vi` 
 
-> votre réponse ?!
+Oui c'est possible
 
 Q10. Si vous éteignez la machine virtuelle et que vous la rallumez, est-ce que le répertoire créé ci-dessus existe toujours (justifiez votre réponse) ? 
 
@@ -136,11 +136,12 @@ Q10. Si vous éteignez la machine virtuelle et que vous la rallumez, est-ce que 
 
 **L.** Tapez la commande `ls -l /dev/sda` 
 
-![Placer votre capture d'écran]() 
+<img width="476" height="151" alt="image" src="https://github.com/user-attachments/assets/a76ad114-93ef-46df-a64a-688518d1b1eb" />
+
 
 Q11. Que signifie **sda** ? 
 
-> votre réponse ?!
+sda désigne le premier périphérique de stockage de type disque
 
 Q12. Quelle différence y a-t-il entre le répertoire de la question Q6 et celui du point L (justifiez votre réponse) ?
 
