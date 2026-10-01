@@ -117,6 +117,8 @@ Q7. dans quel dossier racine allez-vous le placer (justifiez votre réponse)
 
 /home/live
 
+home contient les répertoires personnels des utilisateurs, et live est ici le répertoire
+
 Q8. Quelle commande allez-vous utiliser pour faire ceci ?  
 
 mkdir EMSY_TB
@@ -132,7 +134,7 @@ Oui c'est possible
 
 Q10. Si vous éteignez la machine virtuelle et que vous la rallumez, est-ce que le répertoire créé ci-dessus existe toujours (justifiez votre réponse) ? 
 
-> votre réponse ?!
+Non car les modifications sont temporaires et sont perdues lorsque la machine virtuelle est éteinte
 
 **L.** Tapez la commande `ls -l /dev/sda` 
 
@@ -145,7 +147,7 @@ sda désigne le premier périphérique de stockage de type disque
 
 Q12. Quelle différence y a-t-il entre le répertoire de la question Q6 et celui du point L (justifiez votre réponse) ?
 
-> votre réponse ?!
+/home est un dossier dans lequel on peut stocker des fichiers et des dossiers, tandis que /dev/sda représente directement le disque utilisé par le système.
 
 ## Installation de SparkyLinux sur la VM
 
