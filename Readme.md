@@ -157,19 +157,20 @@ Q12. Quelle différence y a-t-il entre le répertoire de la question Q6 et celui
 
 Q13. Quelle est la taille de disque minimum recommandée pour installer la distribution Sparky en mode cli 
 
-> votre réponse ?!
+2Go
 
 Q14. A quoi sert la partition swap ? Est-ce que ce principe existe-t-il sur les OS Microsoft Windows ? 
 
-> votre réponse ?!
+une extension de ram quand cest nessesaire
 
 Q15. Quel format pourriez-vous utiliser pour la 3ème partition afin qu’elle soit également accessible depuis un OS Microsoft ? 
 
-> votre réponse ?!
+w32
 
 Q16. Durant l’installation, on vous demande deux noms d’utilisateur. A quoi correspondent-ils ? 
 
-> votre réponse ?!
+nom complet de l'utilisateur et le login
+
 
 **N.** Une fois l’installation de Linux terminée, prenez une capture d’écran du démarrage de votre système (GRUB)
 
@@ -177,7 +178,7 @@ Q16. Durant l’installation, on vous demande deux noms d’utilisateur. A quoi 
 
 **O.** Trouvez la ou les lignes de commande permettant de changer le clavier et procédez à la configuiration 
 
-> votre commande ?! 
+sudo dpkg-reconfigure keyboard-configuration
 
 ![Placer votre capture d'écran]() 
 
