@@ -165,11 +165,11 @@ une extension de ram quand cest nessesaire
 
 Q15. Quel format pourriez-vous utiliser pour la 3ème partition afin qu’elle soit également accessible depuis un OS Microsoft ? 
 
-w32
+fat32
 
 Q16. Durant l’installation, on vous demande deux noms d’utilisateur. A quoi correspondent-ils ? 
 
-nom complet de l'utilisateur et le login
+le compte administrateur et le comptestandart
 
 
 **N.** Une fois l’installation de Linux terminée, prenez une capture d’écran du démarrage de votre système (GRUB)
@@ -180,35 +180,37 @@ nom complet de l'utilisateur et le login
 
 sudo dpkg-reconfigure keyboard-configuration
 
-![Placer votre capture d'écran]() 
+<img width="856" height="623" alt="Capture d&#39;écran 2026-10-07 084028" src="https://github.com/user-attachments/assets/9fd17f6c-10ab-4a8a-873a-1b97f13206db" />
 
 **P.** Tapez la commande : `nano -version`
 
-![Placer votre capture d'écran]() 
+<img width="487" height="88" alt="Capture d&#39;écran 2026-10-07 143321" src="https://github.com/user-attachments/assets/4fe2aa12-eff5-4363-a0bc-86888566d763" />
+
 
 Q17. A quoi sert `nano` ? 
+Nano est un éditeur de texte permettant de créer et modifier des fichiers directement depuis le terminal.
 
-> votre réponse ?!
 
 **Q.** Testez si l’application `git` est installée sur votre distribution, si ce n’est pas le cas installez un client git. 
 
 Q18. Comment savoir si `git` est déjà installé ? 
 
-> votre réponse ?!
+en verifiant le resulat de git 
 
-> votre commande ?! 
+<img width="275" height="44" alt="Capture d&#39;écran 2026-10-07 143036" src="https://github.com/user-attachments/assets/704e5968-2091-49ac-86dc-139734d1b847" />
+
 
 Q19. Si le client `git` n'est pas installé, quelle(s) commande(s) utilisez-vous pour l’installer ? 
 
-> votre commande ?! 
+sudo apt update
 
 Q20. Que veut dire `apt` ? 
 
-> votre réponse ?!
+un outil de linux pour installer et télécharger des mise a jour
 
 Q21. Est-ce que cette commande (`apt`) peut être utilisée sur toutes les distributions Linux (justifiez votre réponse)? 
 
-> votre réponse ?!
+non Elle est principalement utilisée sur les distributions basées sur Debian
 
 **R.** Créez un sous-répertoire « EMSY_TP1_XXX-YYY » dans le répertoire de votre utilisateur. 
        
