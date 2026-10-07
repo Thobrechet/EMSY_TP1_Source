@@ -215,16 +215,16 @@ non Elle est principalement utilisée sur les distributions basées sur Debian
 **R.** Créez un sous-répertoire « EMSY_TP1_XXX-YYY » dans le répertoire de votre utilisateur. 
        
 **Attention** : Ici on veut que l’utilisateur (vous) ait les droits de lecture, d’écriture et d’exécution.
+mkdir EMSY_TP1_XXX-YYY
 
-> votre commande ?! 
 
 Q22. Quel est le répertoire utilisateur ?  
 
-> votre réponse ?!
+/home/brechet
 
 Q23. Quelles sont les commandes pour changer les droits d'utilisateurs (lecture - écriture - execution) ?  
 
-> votre commande ?! 
+chmod u+rwx EMSY_TP1_XXX-YYYTho
 
 **S.** Dans ce répertoire, tapez la commande : `git clone https://github.com/votreDepot/EMSY_TP1_Source`
 
@@ -232,17 +232,17 @@ Q23. Quelles sont les commandes pour changer les droits d'utilisateurs (lecture 
 
 Q24. Qu’observez-vous dans ce répertoire ?
 
-![Placer votre capture d'écran]()
+<img width="612" height="144" alt="Capture d&#39;écran 2026-10-07 151814" src="https://github.com/user-attachments/assets/bf3871fb-a811-41dd-afeb-4d212e9f7574" />
+
 
 **T.** Editez le fichier source `.c` avec l’éditeur de texte « nano ». -> Réalisez un petit programme en C (par exemple de type « Hello world »).
 
-![Placer votre capture d'écran]()
+<img width="884" height="726" alt="Capture d&#39;écran 2026-10-07 152936" src="https://github.com/user-attachments/assets/24c491a7-f757-4b46-b86e-f6ba6205d8ea" />
+
 
 **U.**	Vérifiez si le compilateur `gcc` est bien installé. Notez la version du logiciel
-
-> votre réponse ?!
-
-![Placer votre capture d'écran]()
+gcc (Debian 10.2.1-6) 10.2.1 20210110
+<img width="640" height="135" alt="Capture d&#39;écran 2026-10-07 153458" src="https://github.com/user-attachments/assets/263d61fa-6f2a-4666-9fb9-c6411e9df958" />
 
 **U-A.** Tapez les commandes suivantes :
 ```Shell 
@@ -250,22 +250,22 @@ gcc -Wall -o fichier.o -c fichier.c
 gcc -o fichier fichier.o 
 ```
 Remarque : « fichier » est à remplacer par le nom de votre choix
+<img width="631" height="77" alt="Capture d&#39;écran 2026-10-07 154611" src="https://github.com/user-attachments/assets/faaff7ec-293d-4ca2-bf07-e90ad4c8f80f" />
 
-![Placer votre capture d'écran]()
 
 Q25. Quels sont les fichiers qui ont été générés 
 
-> votre réponse ?!
+EMSY_TP1 ET EMSY_TP1.c
 
 ![Placer votre capture d'écran]()
 
 **V.** Entrez la commande suivante : `./fichier`
+<img width="454" height="108" alt="image" src="https://github.com/user-attachments/assets/20b0c38e-35da-4dc2-945a-bcc883baea5a" />
 
-![Placer votre capture d'écran]()
 
 Q26. Que se passe-t-il ?
 
-> votre réponse ?!
+le code que javais tappé c'est lancer
 
 
 
